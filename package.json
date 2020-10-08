@@ -1,0 +1,17 @@
+{
+  "name": "droneci-notify",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:synaptiko/droneci-notify.git",
+  "author": "Jiří Prokop <jprokop@synaptiko.cz>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "drone-node": "^2.1.0",
+    "growl": "^1.10.5"
+  },
+  "scripts": {
+    "wait-for": "node index.js"
+  }
+}
